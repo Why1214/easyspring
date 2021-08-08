@@ -6,6 +6,8 @@
 
     <bean id="phoneService" class="org.easyspring.service.v1.PhoneService"></bean>
 
+    <bean id="computerService" class="org.easyspring.service.v1.ComputerService" scope="prototype"></bean>
+
     <bean id="invalidBean" class="xxx.xxxx"></bean>
 
 </beans>
