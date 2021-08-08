@@ -1,4 +1,4 @@
-package org.easyspring.factory;
+package org.easyspring.beans.factory;
 
 import org.easyspring.beans.BeanDefinition;
 

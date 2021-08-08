@@ -1,10 +1,10 @@
 package org.easyspring.test.v1;
 
 import org.easyspring.beans.BeanDefinition;
-import org.easyspring.factory.BeanCreationException;
-import org.easyspring.factory.BeanDefinitionStoreException;
-import org.easyspring.factory.BeanFactory;
-import org.easyspring.factory.support.DefaultBeanFactory;
+import org.easyspring.beans.factory.BeanCreationException;
+import org.easyspring.beans.factory.BeanDefinitionStoreException;
+import org.easyspring.beans.factory.BeanFactory;
+import org.easyspring.beans.factory.support.DefaultBeanFactory;
 import org.easyspring.service.v1.PhoneService;
 import org.junit.Assert;
 import org.junit.Test;

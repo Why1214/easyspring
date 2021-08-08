@@ -1,12 +1,12 @@
-package org.easyspring.factory.support;
+package org.easyspring.beans.factory.support;
 
 import org.dom4j.Document;
 import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
 import org.easyspring.beans.BeanDefinition;
-import org.easyspring.factory.BeanCreationException;
-import org.easyspring.factory.BeanDefinitionStoreException;
-import org.easyspring.factory.BeanFactory;
+import org.easyspring.beans.factory.BeanCreationException;
+import org.easyspring.beans.factory.BeanDefinitionStoreException;
+import org.easyspring.beans.factory.BeanFactory;
 import org.easyspring.util.ClassUtils;
 
 import java.io.IOException;
